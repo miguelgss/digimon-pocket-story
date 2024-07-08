@@ -1,9 +1,10 @@
-local Etypes = require("enums.enums")[1]
-local Eattributes = require("enums.enums")[2]
-local Elevel = require("enums.enums")[3]
+local Etypes = require("enum.digimon_basic")[1]
+local Eattributes = require("enum.digimon_basic")[2]
+local Elevel = require("enum.digimon_basic")[3]
 
-local anim8 = require("library.anim8")
-local love = require("love")
+-- local anim8 = require("library.anim8")
+local anim8 = {}
+local love = {}
 
 local digimon = {
     lv = 1, exp = 1, expnext = 100,

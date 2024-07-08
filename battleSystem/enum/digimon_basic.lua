@@ -1,16 +1,17 @@
 local Etypes = {
-    FREE = 1,
-    VACCINE = 2,
-    DATA = 3,
-    VIRUS = 4,
+    VACCINE = 1,
+    DATA = 2,
+    VIRUS = 3,
+    FREE = 4,
+
 }
 
 local Eattributes = {
     FIRE = 1,
     WATER = 2,
     PLANT = 3,
-    ELETRIC = 4,
-    EARTH = 5,
+    EARTH = 4,
+    ELETRIC = 5,
     WIND = 6,
 
     LIGHT = 7,

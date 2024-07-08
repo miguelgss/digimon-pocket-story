@@ -1,4 +1,4 @@
-local digimon = require 'entities.digimon'
+local digimon = require 'battleSystem.digimon'
 
 local battle = {}
 
