@@ -28,8 +28,7 @@ local function puts(str, reqVeryVerbosePerms)
 end
 
 local gameStates = { -- this is where you set the directories of your screens
-	["e"] = require("screen.screen"),
-	["battle"] = require("screen.battle")
+	["e"] = require("screen.screen")
 }
 
 local currState = nil

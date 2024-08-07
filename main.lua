@@ -1,11 +1,13 @@
+package.path = package.path .. ";../?.lua"
 local ScreenManager = require 'screen.screenManager'
+local love = require 'love'
 
 local defaultGameResolution = {x=480,y=360}
 
 function love.load()
     local font = love.graphics.newFont("font/k_mini.ttf", 16, "normal", love.graphics.getDPIScale())
 	love.graphics.setFont(font)
-    ScreenManager:SwitchStates("e")  
+    ScreenManager:SwitchStates("e")
 end
 
 function love.draw()

@@ -4,6 +4,6 @@ function love.conf(t)
 	t.window.width = 480
 	t.window.height = 360
 	t.window.title = "Digimon Pocket Story"
-	t.window.resizable = true
+	t.window.resizable = false
 	t.console = true
 end
